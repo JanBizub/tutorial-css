@@ -1,0 +1,92 @@
+:root {
+  font-size: calc(0.5em + 1vw);
+}
+
+ul {
+  font-size: 0.8rem;
+}
+
+h1 {
+  color: #2f4f4f;
+  margin-bottom: 0.5em;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+.panel {
+ margin: 1em 0em 1em 0em;
+ padding: 1em;
+ border-radius: 0.5em;
+ border: 1px solid #999;
+}
+
+.panel > h2 {
+ margin-top: 0;
+ font-size: 0.8rem;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+.panel.large {
+  font-size: 1.2rem;
+ }
+
+.nav {
+ margin-top: 1em;
+ list-style: none;
+ padding-left: 0;
+}
+
+.nav li {
+ display: inline-block;
+}
+
+.nav li {
+ display: inline-block;
+ background-color: red;
+}
+
+.nav a {
+ color: white;
+ background-color: #13a4a4;
+ font-size: 1.2rem;
+ padding: 1rem 1rem;
+ border-radius: 2px;
+ text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;  
+  background-color: red;
+}
+
+.nav .featured {
+ background-color: orange;
+ box-shadow: 0.4em 0.4em #6f9090;
+}
+
+.footer {
+ color: #666;
+ background-color: #ccc;
+ padding: 1em 0em;
+ text-align: center;
+ font-size: 1rem;
+}
+
+.footer a {
+ color: initial;
+ text-decoration: underline;
+}
+
+.square {
+  width: 90vmin;
+  height: 90vmin;
+  background-color: #369;
+ }
+
+ .about-us {
+  font-size: 2em;
+ }
