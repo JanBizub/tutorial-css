@@ -23,11 +23,13 @@ body {
     max-width: 1080px;
     margin: 0 auto;
 }
+
 header,
 nav {
     grid-column: left-start / right-end;
     grid-row: span 1;
 }
+
 .main {
     grid-column: left;
     grid-row: row 3 / span 2;
